@@ -1,0 +1,82 @@
+*{
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    text-decoration: none;
+    scroll-behavior: smooth;
+    font-size: 20px;
+}
+h1{
+    text-align: center;
+    margin: 0 0 58px;
+}
+h1 a{
+    color: black;
+    font-size: 100px;
+}
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 211px;
+    margin-bottom: 100px;
+}
+nav a {
+    color: black;
+    font-size: 30px;
+}
+nav a.active {
+    color: red;
+}
+.secondary-nav {
+    gap: 90px;
+    margin-bottom: 140px;
+    align-items: center;
+}
+.secondary-nav a{
+    font-size: 20px;
+}
+.secondary-nav input {
+    font: inherit;
+    font-size: 20px;
+    width: 500px;
+    height: 47px;
+    background-color: rgba(245, 245, 245, 1);
+    border: none;
+}
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 570px);
+    justify-content: center;
+    column-gap: 90px;
+    row-gap: 85px;
+}
+.product-card img {
+    display: block;
+    width: 570px;
+    height: 570px;
+    object-fit: cover;
+}
+.product-card h2 {
+    margin: 15px 0 0 55px;
+}
+.product-card p {
+    margin: 0 0 0 55px;
+}
+.music-grid {
+    grid-template-columns: repeat(3, 370px);
+}
+.music-grid .product-card img {
+    width: 370px;
+    height: 370px;
+}
+.tour-image {
+    display: block;
+    width: 100%;
+    height: auto;
+    margin-bottom: 220px;
+}
+.tour-message {
+    margin: 0 0 220px;
+    text-align: center;
+    font-size: 43px;
+    font-weight: 300;
+}
